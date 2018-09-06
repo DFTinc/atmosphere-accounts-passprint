@@ -1,6 +1,7 @@
 Package.describe({
     summary: "Login service for PassPrint accounts",
-    version: "0.0.1"
+    version: "1.0.0",
+    git: "https://github.com/DFTinc/atmosphere-accounts-passprint.git"
 });
 
 Package.onUse(function(api) {
