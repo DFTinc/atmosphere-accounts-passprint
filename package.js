@@ -15,7 +15,7 @@ Package.onUse(function(api) {
     // Export Accounts (etc) to packages using this one.
     api.imply('accounts-base', ['client', 'server']);
     api.use('accounts-oauth@1.1.15', ['client', 'server']);
-    api.use('passprint@1.0.0', ['client', 'server']);
+    api.use('diamondfortress:passprint@1.0.0', ['client', 'server']);
 
     api.addFiles('passprint_login_button.css', 'client');
 
